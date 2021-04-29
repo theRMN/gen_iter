@@ -25,14 +25,16 @@ class URLmaker:
         return result
 
 
-for i in URLmaker('countries.json', 0):
-    print(i)
+# for i in URLmaker('countries.json', 0):
+#     print(i)
 
 
 def line_hash(path):
     with open(path, encoding='utf-8') as f:
         for line in f:
-            yield md5(line.replace('\n', '').encode()).hexdigest()
+            line = line.replace('\n', '')
+            line = md5(line.encode()).hexdigest()
+            yield line
 
 
 for i in line_hash('result.txt'):
