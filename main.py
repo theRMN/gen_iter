@@ -25,8 +25,8 @@ class URLmaker:
         return result
 
 
-# for i in URLmaker('countries.json', 0):
-#     print(i)
+for i in URLmaker('countries.json', 0):
+    print(i)
 
 
 def line_hash(path):
