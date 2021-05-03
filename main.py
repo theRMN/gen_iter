@@ -1,5 +1,6 @@
 import json
 from hashlib import md5
+from decorators.logger import path_to_log
 
 
 class URLmaker:
@@ -29,6 +30,7 @@ for i in URLmaker('countries.json', 0):
     print(i)
 
 
+@path_to_log('log.txt')
 def line_hash(path):
     with open(path, encoding='utf-8') as f:
         for line in f:

@@ -1,0 +1,4 @@
+test_function: 2021-05-03 11:16:25.839380 | FullArgSpec(args=['text'], varargs=None, varkw=None, defaults=None, kwonlyargs=[], kwonlydefaults=None, annotations={})
+line_hash: 2021-05-03 11:16:28.788448 | FullArgSpec(args=['path'], varargs=None, varkw=None, defaults=None, kwonlyargs=[], kwonlydefaults=None, annotations={})
+test_function: 2021-05-03 11:18:19.017546 | FullArgSpec(args=['text'], varargs=None, varkw=None, defaults=None, kwonlyargs=[], kwonlydefaults=None, annotations={})
+line_hash: 2021-05-03 11:18:21.964207 | FullArgSpec(args=['path'], varargs=None, varkw=None, defaults=None, kwonlyargs=[], kwonlydefaults=None, annotations={})
