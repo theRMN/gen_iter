@@ -1,6 +1,4 @@
 from datetime import datetime
-import inspect
-import itertools
 
 
 def path_to_log(path):
