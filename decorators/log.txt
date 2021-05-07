@@ -1,3 +1,0 @@
-test_function: 2021-05-03 11:10:50.456798 | FullArgSpec(args=['text'], varargs=None, varkw=None, defaults=None, kwonlyargs=[], kwonlydefaults=None, annotations={})
-test_function: 2021-05-03 11:10:51.566559 | FullArgSpec(args=['text'], varargs=None, varkw=None, defaults=None, kwonlyargs=[], kwonlydefaults=None, annotations={})
-test_function: 2021-05-03 11:10:52.414274 | FullArgSpec(args=['text'], varargs=None, varkw=None, defaults=None, kwonlyargs=[], kwonlydefaults=None, annotations={})
